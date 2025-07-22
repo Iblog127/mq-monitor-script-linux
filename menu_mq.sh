@@ -2,10 +2,10 @@
 # Programma creato da Claudio
 
 # Dichiarazione delle variabili con i nomi dei QMgr
-QMG1="LABS"
-QMG2="MQREP1"
-QMG3="MQREP2"
-QMG4="BESTS"
+QMG1="MQREP1"
+QMG2="MQREP2"
+QMG3="MQREP3"
+QMG4="MQREP4"
 
 # Variabili delle porte associate ai QMgr
 PORTA_QMG1=1420
