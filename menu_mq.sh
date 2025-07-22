@@ -11,7 +11,7 @@ QMG4="MQREP4"
 PORTA_QMG1=1420
 PORTA_QMG2=1431
 PORTA_QMG3=1432
-PORTA_BESTS=1415
+PORTA_QMG4=1415
 
 # Variabiil delle Dead Letter Queue associati ai Qmgr
 DQL1="SYSTEM.DEAD.LETTER.QUEUE"
@@ -66,7 +66,7 @@ controllo_porta_listener() {
     netstat -tnlp | grep "$PORTA_QMG3"
     echo
     echo -e "\033[31mNome Qmgr: $QMG4\033[0m"
-    netstat -tnlp | grep "$PORTA_BESTS"
+    netstat -tnlp | grep "$PORTA_QMG4"
     echo
 }
 
